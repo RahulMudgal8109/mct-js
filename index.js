@@ -87,6 +87,7 @@ function createUserList({ avatar, name, time }, index) {
   
   function AddChat(chat) {
     if (chat !== undefined) {
+      console.log(chat);
       const chatData = document.createElement("div");
       chatData.classList.add("chat");
       chat.forEach((element) => {
